@@ -47,4 +47,4 @@ def sale_prediction():
 					'message': "success",
 					'status_code': 200})
 
-app.run(debug=True)
+app.run()
