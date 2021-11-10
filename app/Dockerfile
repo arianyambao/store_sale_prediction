@@ -12,4 +12,4 @@ COPY . /app
 WORKDIR /app
 
 # Run the API inside
-RUN gunicorn app:main -b localhost:8080
+RUN gunicorn main:app -b :$PORT
