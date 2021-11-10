@@ -7,7 +7,7 @@ COPY requirements.txt ./requirements.txt
 # Install dependencies
 RUN pip install -r requirements.txt
 
-# Add our code
+# Add the scripts and resources
 COPY . /app
 WORKDIR /app
 
