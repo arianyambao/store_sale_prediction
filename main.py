@@ -47,4 +47,5 @@ def sale_prediction():
 					'message': "success",
 					'status_code': 200})
 
-app.run()
+if __name__ == '__main__':
+	app.run(port=5000)

@@ -1,5 +1,0 @@
-{
-    "name": "sample-sale-prediction",
-    "description": "A sample of Tensorflow Inference on Heroku",
-    "keywords": ["python", "flask", "rest", "pep8"]
-  }
