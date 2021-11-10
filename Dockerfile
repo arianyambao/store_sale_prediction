@@ -12,4 +12,4 @@ COPY . /app
 WORKDIR /app
 
 # Run the API inside
-RUN gunicorn main:app -b :$PORT
+RUN gunicorn --bind 0.0.0.0:$PORT main:app
