@@ -1,0 +1,1 @@
+web: RUN gunicorn main:app -b :$PORT
